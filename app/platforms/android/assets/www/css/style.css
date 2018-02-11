@@ -1,0 +1,326 @@
+/******* Globale Einstellung ******/
+
+@font-face {
+  font-family: 'Roboto Mono', monospace;
+  src: url(../font/RobotoMono-Regular.ttf);
+  font-family: 'Roboto', sans-serif;
+  src: url(../font/Roboto-Light.ttf);
+  src: url(../font/Roboto-Regular.ttf);
+}
+
+html,body {
+            height: 100%;
+            width: 100%;
+            margin: 0;
+            padding 0;
+            background-color: black;
+}
+
+* {
+    box-sizing: border-box;
+    /* outline: 1px solid black; */
+}
+
+.col2 {
+    column-count: 2;
+}
+/************Blöcke**********/
+
+.block1 {
+    margin-top: 11vh;
+    position: relative;
+    background-image: url(../img/horn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.blockfarbe {
+    margin-top: 11vh;
+    position: relative;
+    background-image: url(../img/farbehorn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.block2 {
+    background-color: blue;
+    margin left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(../img/ottodix.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.block3 {
+    background-color: red;
+    margin left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(../img/hochschule.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.block4 {
+    background-color: yellow;
+    margin left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(../img/theater.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.block5 {
+    margin left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-image: url(../img/kunstpark.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+
+.menu {
+    margin left: 0;
+    margin-top: 0;
+    margin-right: 0;
+    margin-bottom: 0;
+    position: relative;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+}
+/******************************/
+
+
+/*********Headline*************/
+
+
+h1 {
+  font-family: "Roboto Mono";
+  font-size: 5vh;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+  line-height: 5vh;
+}
+
+h2 {
+  font-family:'Roboto';
+  font-size: 3vh;
+  font-weight: 200;
+  font-style: normal;;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: white;
+
+}
+
+h3 {
+  font-family: "Roboto Mono";
+  font-size: 5vh;
+  font-weight: 400;
+  font-style: normal;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: #ff2d00;
+}
+
+h4 {
+  font-family: "Roboto";
+  font-size: 6vh;
+  font-weight: 100;
+  font-style: normal;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  line-height: 10vh;
+}
+h5 {
+  font-family: "Roboto";
+  font-size: 2.5vh;
+  font-weight:normal;
+  font-style: normal;
+  outline: none;
+  padding: 0;
+  margin: 0;
+  color: #ffffff;
+  line-height: 3.5vh;
+}
+
+
+.abstand {
+  margin-left: 2vh;
+  margin-top: 14vh;
+  position: absolute;
+}
+
+.abstand2 {
+  margin-left: 2vh;
+  margin-top: 25vh;
+  position: absolute;
+
+}
+
+.abstand3 {
+  margin-left: 2vh;
+  margin-top: 1vh;
+  position: absolute;
+}
+
+.abstand4 {
+  margin-left: 2vh;
+  margin-top: 15vh;
+  position: absolute;
+}
+
+.abstand5 {
+  margin-left: 2vh;
+  margin-top: 3vh;
+  line-height: 6vh;
+  /* position: absolute; */
+}
+
+.abstand6 {
+  margin-left: 2vh;
+  margin-top: 3vh;
+  /* position: absolute; */
+}
+
+.abstand7 {
+  margin-left: 2vh;
+  margin-top: 7vh;
+  /* position: absolute; */
+}
+.abstandtext {
+  margin-left: 2vh;
+  margin-right: 3vh;
+  margin-top: 3vh;
+  /* position: absolute; */
+}
+
+
+
+ /*****************************/
+
+button {
+    background-color: black;
+    border: none;
+    padding: 0;
+}
+
+h1 h2 {
+padding: 0;
+margin: 0;
+}
+
+/** ich bin das Raster **/
+.h10 {height: 10vh;}
+.h11 {height: 11vh;}
+.h20 {height: 20vh;}
+.h25 {height: 25vh;}
+.h30 {height: 30vh;}
+.h40 {height: 40vh;}
+.h50 {height: 50vh;}
+.h85 {height: 85vh;}
+.h100 {height: 100vh;}
+.h110 {height: 110vh;}
+.h150 {height: 150vh;}
+.w150 {width: 150vw;}
+.w100 {width: 100vw;}
+.w50 {width: 50vw;}
+.w20 {width: 20vw;}
+.w10 {width: 10vw;}
+.w7 {width: 7vw;}
+
+/* .icon {
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: 50% center;
+
+
+} */
+
+
+.kopf{
+    position: fixed;
+    background-color: black;
+    z-index: 99999999;
+}
+
+.f-1{
+    flex: 2;
+}
+
+.flex-row{
+  display: flex;
+}
+
+.flex-center{
+  align-items: center;
+  justify-content: center;
+}
+
+.burger {
+    background-image: url(../img/burgericon.svg);
+    background-color: black;
+    background-size: 150% 150%;
+    background-repeat: no-repeat;
+    background-position: 0% center;
+    margin-left: 85vw;
+    }
+
+
+    .zufo {
+        background-image: url(../img/zufo.svg);
+        background-size: 80% 80%;
+        background-repeat: no-repeat;
+        background-position: 0% center;
+        margin-left: 0vw;
+        }
+
+
+
+
+    /*Hier kommt Burger Icon*/
+
+
+
+.scroll01 {
+  overflow: scroll;
+
+  }
+
+
+.bgfarbe {
+  background-color: #2F3E1E;
+  background-size: cover;
+
+}
+
+/******* End of Globale Einstellung ******/
+
+/**** stlye für die Home ****/
+
+
+.home {
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-position: center bottom;
+    background-color: black;
+}
